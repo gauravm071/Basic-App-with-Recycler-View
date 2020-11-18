@@ -1,4 +1,4 @@
-package com.example.first;
+package com.example.basicappwithrecyclerview;
 
 import androidx.appcompat.app.AppCompatActivity;
 

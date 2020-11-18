@@ -1,5 +1,5 @@
 
-package com.example.first;
+package com.example.basicappwithrecyclerview;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -28,7 +28,7 @@ public class MainActivity3 extends AppCompatActivity {
         Bundle extras= intent.getExtras();
         recyclerView= findViewById(R.id.rvId);
         int number= Integer.parseInt(extras.getString("number"));
-        for(int i=1;i<=20;i++){
+        for(int i=1;i<=10;i++){
             table.add(number*i);
         }
         recyclerView.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false));
